@@ -6,3 +6,5 @@ A demo for cpp coroutine.
 2. 确保你的机器上有make构建工具；
 3. 在cpp_coroutine_demo目录下执行make;
 4. 运行生成的sync_add async_add co_add co_generator这些二进制文件即可；
+
+**相应blog地址：** https://mr-xingjian.github.io/2021/10/23/c++%20coroutine/

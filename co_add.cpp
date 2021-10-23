@@ -66,7 +66,7 @@ int main(int argc, char ** argv)
         std::cout << "co_add return!" << std::endl;
     }
 
-    // 防止退出子进程销毁
+    // 防止退出导致子进程销毁
     while (true) {}
 
     return 0;

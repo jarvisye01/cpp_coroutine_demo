@@ -9,7 +9,7 @@ int main(int argc, char ** argv)
     {
         jarvis::sync_add(i, i * i);
     }
-    // 防止退出子进程销毁
+    // 防止退出导致子进程销毁
     while (true) {}
     return 0;
 }
